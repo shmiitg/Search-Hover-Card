@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBZ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <h1>Dragon Ball Z</h1>
+        <div class="search-container">
+            <form class="wrapper empty">
+                <input class="search empty-input" id="search" type="text" placeholder="Search a character..."
+                    name="search" autocomplete="off">
+                <button type="submit" class="search-btn empty-btn"><i class="fas fa-search"></i></button>
+            </form>
+            <div class="results">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="arrow prev" id="left-arrow"><i class="fas fa-chevron-left"></i></div>
+        <article>
+            <main>
+                <img src="" class="char-img" alt="warrior-image">
+                <h2 class="char-name"></h2>
+            </main>
+            <div class="content">
+                <h3 class="char-name" id="char-name"></h3>
+                <h4 class="char-job"></h4>
+                <p class="char-info"></p>
+            </div>
+        </article>
+        <div class="arrow next" id="right-arrow"><i class="fas fa-chevron-right"></i></div>
+    </div>
+    <button class="random arrow btn">Surprise Me</button>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
